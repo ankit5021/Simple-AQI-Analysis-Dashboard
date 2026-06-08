@@ -1,3 +1,10 @@
+'''
+Name :- Ankit Dewangan
+Enrollment number :- A9922523005050(el)
+Project :- Historical AQI Analysis Dashboard
+Date :- 08-06-2026
+'''
+
 # Run this program in streamlit for best results .
 
 import streamlit as st
@@ -209,3 +216,10 @@ else:
     # Raw data preview
     st.subheader("Filtered Data Preview")
     st.dataframe(filtered_df.head(20))
+
+with st.sidebar:
+    st.markdown("---")
+    st.markdown("Developed by:")
+    st.text("Ankit Dewangan")
+    st.text("Enrollment No. : A9922523005050(el)")
+    st.text("Amity University Online")
